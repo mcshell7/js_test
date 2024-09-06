@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 15px;
+  line-height: 1.4em;
+  background-color: #fefefe;
+  font-family: "Inter", sans-serif;
+  padding: 15px; }
+
+.user__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 800px; }
+  .user__list .card {
+    width: 100%; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto 10px; }
+  .info .lead {
+    margin-right: 15px; }
+
+.sub__list {
+  margin-left: 10px; }
+
+.post__btn {
+  text-transform: capitalize;
+  margin: 0 auto 30px;
+  max-width: 90%;
+  display: inline-block; }
+
+.posts {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  text-transform: capitalize;
+  gap: 1rem; }
+  .posts ul, .posts li {
+    list-style: none; }
+  .posts .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column; }
+  .posts .card-body {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .posts .h4 {
+    font-size: 1rem;
+    margin-bottom: auto; }
+  .posts .btn {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px; }
+
+.post {
+  max-width: 90%;
+  margin: 0 auto; }
+  .post .title {
+    text-transform: uppercase; }
+  .post .content {
+    margin-bottom: 30px; }
+
+.comments {
+  max-width: 90%;
+  margin: 50px auto 0; }
+  .comments__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; }
+
+.posts__btn-container {
+  max-width: 90%;
+  margin: 0 auto; }
+
+@media (max-width: 500px) {
+  .user__list {
+    grid-template-columns: 1fr; } }
+
+/*# sourceMappingURL=main.css.map */
